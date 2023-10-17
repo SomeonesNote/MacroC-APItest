@@ -14,6 +14,7 @@ struct MacroC_APITestApp: App {
  
     var body: some Scene {
         WindowGroup {
+            
             if userAuth.showLoginView {
             SignInView().environmentObject(userAuth)
             } else {

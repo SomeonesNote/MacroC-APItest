@@ -15,6 +15,30 @@
 		07F732DF2ADD3DDF00FDBA52 /* KeyChainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F732DE2ADD3DDF00FDBA52 /* KeyChainItem.swift */; };
 		07F732E12ADD405700FDBA52 /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F732E02ADD405700FDBA52 /* AppleSignInButton.swift */; };
 		07F732E42ADD439200FDBA52 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F732E32ADD439200FDBA52 /* SignInView.swift */; };
+		F613F8D52ADE126F00649BD8 /* AddProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8D42ADE126F00649BD8 /* AddProfileView.swift */; };
+		F613F8D72ADE12B900649BD8 /* LogonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8D62ADE12B900649BD8 /* LogonViewModel.swift */; };
+		F613F8DA2ADE12E900649BD8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F613F8D92ADE12E900649BD8 /* Alamofire */; };
+		F613F8DC2ADE133700649BD8 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8DB2ADE133700649BD8 /* BackGroundView.swift */; };
+		F613F8E22ADE141200649BD8 /* ImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8E12ADE141200649BD8 /* ImageCropper.swift */; };
+		F613F9032ADE150000649BD8 /* dropShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8F62ADE150000649BD8 /* dropShadowModifier.swift */; };
+		F613F9042ADE150000649BD8 /* mainpageTitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8F72ADE150000649BD8 /* mainpageTitleModifier.swift */; };
+		F613F9052ADE150000649BD8 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8F92ADE150000649BD8 /* Pretendard-Regular.otf */; };
+		F613F9062ADE150000649BD8 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8FA2ADE150000649BD8 /* Pretendard-Black.otf */; };
+		F613F9072ADE150000649BD8 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8FB2ADE150000649BD8 /* Pretendard-Medium.otf */; };
+		F613F9082ADE150000649BD8 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8FC2ADE150000649BD8 /* Pretendard-Light.otf */; };
+		F613F9092ADE150000649BD8 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8FD2ADE150000649BD8 /* Pretendard-ExtraBold.otf */; };
+		F613F90A2ADE150000649BD8 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F8FE2ADE150000649BD8 /* Pretendard-Bold.otf */; };
+		F613F90B2ADE150000649BD8 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F8FF2ADE150000649BD8 /* Font.swift */; };
+		F613F90C2ADE150000649BD8 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F613F9002ADE150000649BD8 /* Pretendard-SemiBold.otf */; };
+		F613F90D2ADE150000649BD8 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9012ADE150000649BD8 /* UIScreen.swift */; };
+		F613F90E2ADE150000649BD8 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9022ADE150000649BD8 /* Components.swift */; };
+		F613F9172ADE154F00649BD8 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9102ADE154F00649BD8 /* DummyData.swift */; };
+		F613F9182ADE154F00649BD8 /* Apitest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9112ADE154F00649BD8 /* Apitest.swift */; };
+		F613F9192ADE154F00649BD8 /* Busking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9122ADE154F00649BD8 /* Busking.swift */; };
+		F613F91A2ADE154F00649BD8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9132ADE154F00649BD8 /* User.swift */; };
+		F613F91B2ADE154F00649BD8 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9142ADE154F00649BD8 /* Artist.swift */; };
+		F613F91C2ADE154F00649BD8 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9152ADE154F00649BD8 /* Member.swift */; };
+		F613F91D2ADE154F00649BD8 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613F9162ADE154F00649BD8 /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +52,29 @@
 		07F732E02ADD405700FDBA52 /* AppleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
 		07F732E22ADD431C00FDBA52 /* MacroC-APITest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MacroC-APITest.entitlements"; sourceTree = "<group>"; };
 		07F732E32ADD439200FDBA52 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F613F8D42ADE126F00649BD8 /* AddProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileView.swift; sourceTree = "<group>"; };
+		F613F8D62ADE12B900649BD8 /* LogonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogonViewModel.swift; sourceTree = "<group>"; };
+		F613F8DB2ADE133700649BD8 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		F613F8E12ADE141200649BD8 /* ImageCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropper.swift; sourceTree = "<group>"; };
+		F613F8F62ADE150000649BD8 /* dropShadowModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dropShadowModifier.swift; sourceTree = "<group>"; };
+		F613F8F72ADE150000649BD8 /* mainpageTitleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainpageTitleModifier.swift; sourceTree = "<group>"; };
+		F613F8F92ADE150000649BD8 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		F613F8FA2ADE150000649BD8 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		F613F8FB2ADE150000649BD8 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		F613F8FC2ADE150000649BD8 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		F613F8FD2ADE150000649BD8 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		F613F8FE2ADE150000649BD8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		F613F8FF2ADE150000649BD8 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		F613F9002ADE150000649BD8 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		F613F9012ADE150000649BD8 /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		F613F9022ADE150000649BD8 /* Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F613F9102ADE154F00649BD8 /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		F613F9112ADE154F00649BD8 /* Apitest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apitest.swift; sourceTree = "<group>"; };
+		F613F9122ADE154F00649BD8 /* Busking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Busking.swift; sourceTree = "<group>"; };
+		F613F9132ADE154F00649BD8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F613F9142ADE154F00649BD8 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F613F9152ADE154F00649BD8 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		F613F9162ADE154F00649BD8 /* UserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F613F8DA2ADE12E900649BD8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +117,12 @@
 				07F732DE2ADD3DDF00FDBA52 /* KeyChainItem.swift */,
 				07F732E32ADD439200FDBA52 /* SignInView.swift */,
 				07F732E02ADD405700FDBA52 /* AppleSignInButton.swift */,
+				F613F8D42ADE126F00649BD8 /* AddProfileView.swift */,
+				F613F8E12ADE141200649BD8 /* ImageCropper.swift */,
+				F613F8DB2ADE133700649BD8 /* BackGroundView.swift */,
+				F613F8D62ADE12B900649BD8 /* LogonViewModel.swift */,
+				F613F90F2ADE154F00649BD8 /* Model */,
+				F613F8F42ADE150000649BD8 /* Extension */,
 			);
 			path = "MacroC-APITest";
 			sourceTree = "<group>";
@@ -79,6 +133,55 @@
 				070421A42ADD3C9C0035AEB7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F613F8F42ADE150000649BD8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F613F8F52ADE150000649BD8 /* Modifier */,
+				F613F8F82ADE150000649BD8 /* Font */,
+				F613F9012ADE150000649BD8 /* UIScreen.swift */,
+				F613F9022ADE150000649BD8 /* Components.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F613F8F52ADE150000649BD8 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F613F8F62ADE150000649BD8 /* dropShadowModifier.swift */,
+				F613F8F72ADE150000649BD8 /* mainpageTitleModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		F613F8F82ADE150000649BD8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F613F8F92ADE150000649BD8 /* Pretendard-Regular.otf */,
+				F613F8FA2ADE150000649BD8 /* Pretendard-Black.otf */,
+				F613F8FB2ADE150000649BD8 /* Pretendard-Medium.otf */,
+				F613F8FC2ADE150000649BD8 /* Pretendard-Light.otf */,
+				F613F8FD2ADE150000649BD8 /* Pretendard-ExtraBold.otf */,
+				F613F8FE2ADE150000649BD8 /* Pretendard-Bold.otf */,
+				F613F8FF2ADE150000649BD8 /* Font.swift */,
+				F613F9002ADE150000649BD8 /* Pretendard-SemiBold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F613F90F2ADE154F00649BD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F613F9102ADE154F00649BD8 /* DummyData.swift */,
+				F613F9112ADE154F00649BD8 /* Apitest.swift */,
+				F613F9122ADE154F00649BD8 /* Busking.swift */,
+				F613F9132ADE154F00649BD8 /* User.swift */,
+				F613F9142ADE154F00649BD8 /* Artist.swift */,
+				F613F9152ADE154F00649BD8 /* Member.swift */,
+				F613F9162ADE154F00649BD8 /* UserResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +200,9 @@
 			dependencies = (
 			);
 			name = "MacroC-APITest";
+			packageProductDependencies = (
+				F613F8D92ADE12E900649BD8 /* Alamofire */,
+			);
 			productName = "MacroC-APITest";
 			productReference = 0704219A2ADD3C9B0035AEB7 /* MacroC-APITest.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 070421912ADD3C9B0035AEB7;
+			packageReferences = (
+				F613F8D82ADE12E900649BD8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0704219B2ADD3C9B0035AEB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				070421A52ADD3C9C0035AEB7 /* Preview Assets.xcassets in Resources */,
+				F613F90A2ADE150000649BD8 /* Pretendard-Bold.otf in Resources */,
+				F613F9072ADE150000649BD8 /* Pretendard-Medium.otf in Resources */,
+				F613F9092ADE150000649BD8 /* Pretendard-ExtraBold.otf in Resources */,
+				F613F9052ADE150000649BD8 /* Pretendard-Regular.otf in Resources */,
+				F613F9062ADE150000649BD8 /* Pretendard-Black.otf in Resources */,
+				F613F90C2ADE150000649BD8 /* Pretendard-SemiBold.otf in Resources */,
 				070421A22ADD3C9C0035AEB7 /* Assets.xcassets in Resources */,
+				F613F9082ADE150000649BD8 /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,12 +267,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F613F9172ADE154F00649BD8 /* DummyData.swift in Sources */,
+				F613F8DC2ADE133700649BD8 /* BackGroundView.swift in Sources */,
+				F613F8D52ADE126F00649BD8 /* AddProfileView.swift in Sources */,
 				07F732E42ADD439200FDBA52 /* SignInView.swift in Sources */,
+				F613F8D72ADE12B900649BD8 /* LogonViewModel.swift in Sources */,
 				07F732DF2ADD3DDF00FDBA52 /* KeyChainItem.swift in Sources */,
+				F613F90D2ADE150000649BD8 /* UIScreen.swift in Sources */,
 				07F732E12ADD405700FDBA52 /* AppleSignInButton.swift in Sources */,
+				F613F90E2ADE150000649BD8 /* Components.swift in Sources */,
 				070421A02ADD3C9B0035AEB7 /* ContentView.swift in Sources */,
+				F613F90B2ADE150000649BD8 /* Font.swift in Sources */,
 				07F732DD2ADD3DAA00FDBA52 /* AppleAuth.swift in Sources */,
 				0704219E2ADD3C9B0035AEB7 /* MacroC_APITestApp.swift in Sources */,
+				F613F9042ADE150000649BD8 /* mainpageTitleModifier.swift in Sources */,
+				F613F8E22ADE141200649BD8 /* ImageCropper.swift in Sources */,
+				F613F9032ADE150000649BD8 /* dropShadowModifier.swift in Sources */,
+				F613F9182ADE154F00649BD8 /* Apitest.swift in Sources */,
+				F613F9192ADE154F00649BD8 /* Busking.swift in Sources */,
+				F613F91B2ADE154F00649BD8 /* Artist.swift in Sources */,
+				F613F91C2ADE154F00649BD8 /* Member.swift in Sources */,
+				F613F91A2ADE154F00649BD8 /* User.swift in Sources */,
+				F613F91D2ADE154F00649BD8 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F613F8D82ADE12E900649BD8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F613F8D92ADE12E900649BD8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F613F8D82ADE12E900649BD8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 070421922ADD3C9B0035AEB7 /* Project object */;
 }
